@@ -1,10 +1,7 @@
-import React, { ReactNode } from 'react';
-
+import React from 'react';
 import styles from './ContainerBox.module.scss';
 
-type ContainerBoxProps = {
-  children: ReactNode;
-};
+import { ContainerBoxProps } from '../../declarations/types/PropTypes';
 
 export const ContainerBox: React.FC<ContainerBoxProps> = ({ children }) => {
   return (

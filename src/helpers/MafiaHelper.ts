@@ -1,4 +1,5 @@
 import axios from 'axios';
+import { GetMafiaByIdProps } from '../declarations/types/HelperProps';
 
 const port = 5000;
 const baseUrl = `http://localhost:${port}/api/v1/`;
@@ -10,10 +11,6 @@ export const GetAllMafias = () => {
     .catch((error) => {
       throw error;
     });
-};
-
-type GetMafiaByIdProps = {
-  cardId: string;
 };
 
 export const GetMafiaById = ({ cardId }: GetMafiaByIdProps) => {

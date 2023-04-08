@@ -3,13 +3,7 @@ import { GetAllMafias } from '../../helpers/MafiaHelper';
 import { MafiaCard } from '../MafiaCard/MafiaCard';
 import { v4 as uuidv4 } from 'uuid';
 import styles from './MafiasList.module.scss';
-
-interface Mafia {
-  id: string;
-  imageUrl: string;
-  name: string;
-  description: string;
-}
+import { Mafia } from '../../declarations/interfaces/Mafia';
 
 export const MafiasList: React.FC = () => {
   const [allMafiasList, setAllMafiasList] = useState<Mafia[]>([]);

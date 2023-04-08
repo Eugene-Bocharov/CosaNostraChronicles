@@ -3,20 +3,8 @@ import styles from './MafiaPage.module.scss';
 
 import { GetMafiaById } from '../../helpers/MafiaHelper';
 
-interface Mafia {
-  id: string;
-  imageUrl: string;
-  name: string;
-  description: string;
-}
-
-type MafiaPageProps = {
-  cardId: string;
-  imageUrl: string;
-  description: string;
-  name: string;
-  onClickFn: () => void;
-};
+import { Mafia } from '../../declarations/interfaces/Mafia';
+import { MafiaPageProps } from '../../declarations/types/PropTypes';
 
 export const MafiaPage: React.FC<MafiaPageProps> = ({
   cardId,

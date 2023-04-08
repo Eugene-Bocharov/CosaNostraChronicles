@@ -3,12 +3,7 @@ import styles from './MafiaCard.module.scss';
 
 import { MafiaPage } from '../MafiaPage/MafiaPage';
 
-type MafiaCardProps = {
-  imageUrl: string;
-  cardId: string;
-  name: string;
-  description: string;
-};
+import { MafiaCardProps } from '../../declarations/types/PropTypes';
 
 export const MafiaCard: React.FC<MafiaCardProps> = ({
   imageUrl,

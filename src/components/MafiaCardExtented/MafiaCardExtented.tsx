@@ -1,13 +1,9 @@
 import React from 'react';
 import styles from './MafiaCardExtented.module.scss';
 
-type MafiaCardExtented = {
-  imageUrl: string;
-  name: string;
-  description: string;
-};
+import { MafiaCardExtentedProps } from '../../declarations/types/PropTypes';
 
-export const MafiaCardExtented: React.FC<MafiaCardExtented> = ({
+export const MafiaCardExtented: React.FC<MafiaCardExtentedProps> = ({
   imageUrl,
   name,
   description,
