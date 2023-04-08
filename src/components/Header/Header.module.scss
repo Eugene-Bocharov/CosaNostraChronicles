@@ -1,0 +1,42 @@
+@import '../../styles/variables';
+
+.headerBox {
+    height: 100vh;
+    background-color: $ligh_grey;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url('https://i.ytimg.com/vi/fJjwNtrHk2A/maxresdefault.jpg');
+    background-size: cover;
+  }
+  
+  .title {
+    font-family: $khula;
+    font-size: 50px;
+    color: $white;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .link {
+    font-family: $khula;
+    font-size: 24px;
+    color: $white;
+    background-color: $red;
+    border-radius: 5px;
+    padding: 10px 20px;
+    text-decoration: none;
+    transition: $main-transition;
+    margin-top: 20px;
+    border: 3px $red solid;
+  }
+  
+  .link:hover {
+   border-radius: 20px;
+  }
+  
+
+  @media screen and (max-width: 768px) {
+    
+  }

@@ -1,0 +1,24 @@
+@import '../../styles/variables';
+
+.listUl {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding-left: 0;
+  margin-top: 80px;
+  margin-bottom: 80px;
+}
+
+@media screen and (max-width: 950px) {
+  .listUl {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-left: 0;
+    margin-top: 80px;
+    margin-bottom: 80px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}

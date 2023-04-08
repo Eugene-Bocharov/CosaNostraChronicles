@@ -1,0 +1,35 @@
+@import '../../styles/variables';
+
+.listUl {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-row-gap: 65px;
+  background-color: $ligh_grey;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  padding-left: 0;
+}
+
+@media screen and (max-width: 815px) {
+  .listUl {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-row-gap: 65px;
+    background-color: $ligh_grey;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    padding-left: 0;
+  }
+}
+
+@media screen and (max-width: 750px) {
+  .listUl {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-row-gap: 65px;
+    background-color: $ligh_grey;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    padding-left: 0;
+  }
+}

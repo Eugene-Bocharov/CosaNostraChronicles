@@ -1,0 +1,21 @@
+@import '../../styles/variables';
+
+.footerBox {
+  display: flex;
+  justify-content: space-between;
+}
+
+.devName {
+  font-family: $khula;
+  font-size: 17px;
+}
+
+.devTelegramLink {
+  font-family: $khula;
+  font-size: 17px;
+}
+
+.devNumber {
+  font-family: $khula;
+  font-size: 17px;
+}
