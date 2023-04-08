@@ -2,7 +2,7 @@ import axios from 'axios';
 import { GetMafiaByIdProps } from '../declarations/types/HelperProps';
 
 const port = 5000;
-const baseUrl = `http://localhost:${port}/api/v1/`;
+const baseUrl = `http://localhost:${port}/api/v1/`; // my local rest api
 
 export const GetAllMafias = () => {
   return axios
